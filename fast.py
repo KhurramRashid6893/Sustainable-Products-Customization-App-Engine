@@ -12,7 +12,7 @@ import random
 
 def app():
     # Load and preprocess data
-    df = pd.read_csv("eco_friendly_product5.csv")
+    df = pd.read_csv("eco_friendly_product_recommendation_data_consistent_names.csv")
     df["Compliance_with_Standards"] = df["Compliance_with_Standards"].fillna("ISO 14001")
     df["Certification"] = df["Certification"].fillna("Energy Star")
 
