@@ -14,7 +14,7 @@ import plotly.graph_objects as go
 
 def app():
     # Load data
-    df = pd.read_csv("eco_friendly_product5.csv")
+    df = pd.read_csv("eco_friendly_product_recommendation_data_consistent_names.csv")
     st.set_option("deprecation.showPyplotGlobalUse", False)
 
     # Title and subtitles for the app
