@@ -6,7 +6,7 @@ def app():
     # Load data
     @st.cache_data
     def load_data():
-        df = pd.read_csv("eco_friendly_product5.csv")  # Replace with your actual file path
+        df = pd.read_csv("eco_friendly_product_recommendation_data_consistent_names.csv")  # Replace with your actual file path
         return df
 
     # Load data
